@@ -1,0 +1,17 @@
+{
+  "ver": "1.0.84",
+  "importer": "javascript",
+  "imported": true,
+  "uuid": "d17cf275-e8cf-4f6c-b266-e52a6f046095",
+  "name": "",
+  "id": "",
+  "displayName": "",
+  "files": [
+    ".js"
+  ],
+  "subMetas": {},
+  "userData": {
+    "moduleId": "project:///assets/scripts/manager/UI_magr.js",
+    "importAsPlugin": false
+  }
+}

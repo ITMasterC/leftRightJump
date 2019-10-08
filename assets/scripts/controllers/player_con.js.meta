@@ -1,0 +1,17 @@
+{
+  "ver": "1.0.84",
+  "importer": "javascript",
+  "imported": true,
+  "uuid": "83ab3aca-d9be-44cc-b84c-674f5ac3dcbe",
+  "name": "",
+  "id": "",
+  "displayName": "",
+  "files": [
+    ".js"
+  ],
+  "subMetas": {},
+  "userData": {
+    "moduleId": "project:///assets/scripts/controllers/player_con.js",
+    "importAsPlugin": false
+  }
+}

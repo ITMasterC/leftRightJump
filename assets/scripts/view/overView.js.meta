@@ -1,0 +1,17 @@
+{
+  "ver": "1.0.84",
+  "importer": "javascript",
+  "imported": true,
+  "uuid": "7511012a-dfe1-4113-a9d0-25232b5b8ae9",
+  "name": "",
+  "id": "",
+  "displayName": "",
+  "files": [
+    ".js"
+  ],
+  "subMetas": {},
+  "userData": {
+    "moduleId": "project:///assets/scripts/view/overView.js",
+    "importAsPlugin": false
+  }
+}
