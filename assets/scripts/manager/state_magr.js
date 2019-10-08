@@ -29,10 +29,4 @@ export class statemagr extends Component {
         console.log('--------------------派发消息', eventType);
         window.Notification.emit(eventType);
     }
-
-
-
-    // update (deltaTime) {
-    //     // Your update function goes here.
-    // }
 }

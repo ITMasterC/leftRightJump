@@ -11,17 +11,7 @@ const {
 
 @ccclass("pooldata")
 export class pooldata extends Component {
-    /* class member could be defined like this */
-    // dummy = '';
-    // constructor() {
-    // }
-    /* use `property` decorator if your want the member to be serializable */
-    // @property
-    // serializableDummy = 0;
-
     start() {
-        //console.log('------------------aaaaaaa');
-        // Your initialization goes here.
     }
 
     init(prefab) {

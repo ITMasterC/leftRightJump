@@ -51,15 +51,11 @@ export class rootNode extends Component {
         window.Notification = new cc.EventTarget()
         window.Notification.on(window._state_magr.state._againGame, this.init, this);//
         window.Notification.on(window._state_magr.state._gameOver, this.gameOver, this);//
+        
         var length = this.node.parent.children.length;
-        this.mid_x = 360;
         for (var i = 0; i < length; i++) {
             if (this.node.parent.children[i].name == "Camera") {
                 this._camera = this.node.parent.children[i];
-            } else if (this.node.parent.children[i].name == "UINode") {
-                this._UINode = this.node.parent.children[i];
-                this.mid_x = this._UINode.width / 2;
-                //this.scoreLabel = this._UINode.getChildByName("scoreLabel");
             }
         }
         this.pool_data = new pooldata();

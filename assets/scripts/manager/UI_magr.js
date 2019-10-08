@@ -22,8 +22,6 @@ export class UImagr extends Component {
     start() {}
 
     startLoadRes() {
-        console.log('----------------------开始加载资源');
-
         cc.loader.loadRes("prefab/view/overNode", (err, prefab) => {
             this._overView = prefab;
         });

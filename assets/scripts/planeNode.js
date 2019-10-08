@@ -3,11 +3,6 @@ const { ccclass, property } = _decorator;
 
 @ccclass("planeNode")
 export class planeNode extends Component {
-    /* class member could be defined like this */
-    // dummy = '';
-    /* use `property` decorator if your want the member to be serializable */
-    // @property
-    // serializableDummy = 0;
 
     start () {
         //this.player_Body = this.getComponent(RigidBodyComponent);
@@ -17,27 +12,12 @@ export class planeNode extends Component {
 
     init(){
         this.deleting = false;
-        //更改刚体状态无效
-        // this.player_Body = this.getComponent(RigidBodyComponent);
-        // this.player_Body._useGravity = false;
-        // this.player_Body._isKinematic = true;
     }
 
     delete(nodePool){
-        // if (this.player_Body.isSleeping) {
-        //     this.player_Body.wakeUp(); // 唤醒
-        // }
-        // this.player_Body._allowSleep = false;
-        // this.player_Body._useGravity = true;
-        // this.player_Body._isKinematic = false;
-        // this.player_Body._mass = 11;
-        //console.log('---------------aaaaaaa', this.player_Body);
         this.nodePool = nodePool;
         this.deleting = true;  
-        this._gravity = 0.01;      
-        // this.scheduleOnce(function(){
-        //     nodePool.putPlaneNode(this.node);
-        // },1.5)
+        this._gravity = 0.01;
     }
 
     update (deltaTime) {

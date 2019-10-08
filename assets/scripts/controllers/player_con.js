@@ -125,7 +125,6 @@ export class playercon extends Component {
         //if (this._action) this.node.position = this._pos;
         if (this.node.getPosition().y <= 0.45 && !window._state_magr._gameOver) { //游戏结束
             window._state_magr._gameOver = true;
-            console.log('-----------------------游戏结束');
             window._state_magr.emitEvent(window._state_magr.state._gameOver);
         }
 
