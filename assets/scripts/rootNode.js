@@ -75,6 +75,7 @@ export class rootNode extends Component {
             }
         }
         this._updateTime = 0;
+        this._deleteBlockTime = 60;
         this.lastBlock_x = 0;
         window._state_magr.init();
         this.scoreLabel.string = '0';
@@ -89,6 +90,9 @@ export class rootNode extends Component {
     updateScore(){
         window._state_magr._score ++;
         this.scoreLabel.string = window._state_magr._score;
+        if(this._deleteBlockTime > 20){
+            this._deleteBlockTime = 60 - Math.floor(window._state_magr._score/2);
+        }
     }
 
     addBlockNode() {
@@ -144,7 +148,7 @@ export class rootNode extends Component {
 
         if(window._state_magr._startGame && !window._state_magr._gameOver){
             this._updateTime++;
-            if(this._updateTime >= 30){
+            if(this._updateTime >= this._deleteBlockTime){
                 this._updateTime = 0;
                 this.deleteBlock();
             }

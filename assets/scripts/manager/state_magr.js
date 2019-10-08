@@ -26,7 +26,7 @@ export class statemagr extends Component {
     }
 
     emitEvent(eventType){
-        console.log('--------------------派发消息', eventType);
+        //console.log('--------------------派发消息', eventType);
         window.Notification.emit(eventType);
     }
 }
