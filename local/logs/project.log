@@ -1,83 +1,30 @@
-2019-10-09 07:34:36-error: [Editor] (node:10004) [DEP0106] DeprecationWarning: crypto.createDecipher is deprecated.
-2019-10-09 07:34:41-log: [Editor] preferences@1.0.0 enable
-2019-10-09 07:34:44-log: [Editor] Parse [D:/cocos3D/CocosCreator3D/resources/resources/3d/engine/index.ts] : walk 477  files.
-2019-10-09 07:34:44-log: [Editor] Parse [D:/cocos3D/CocosCreator3D/resources/resources/3d/engine/index.ts]: 2642.903ms
-2019-10-09 07:34:45-log: [Editor] QuickCompiler compileFinished: 40.993ms
-2019-10-09 07:34:45-log: [Editor] QuickCompiler rebuild finished: 2804.269ms
-2019-10-09 07:34:45-log: [Editor] engine@1.0.0 enable
-2019-10-09 07:34:45-log: [Editor] asset-db@1.0.0 enable
-2019-10-09 07:34:45-log: [Editor] console@1.0.0 enable
-2019-10-09 07:34:45-log: [Editor] scene@1.0.0 enable
-2019-10-09 07:34:45-log: [Editor] ui-kit@1.0.0 enable
-2019-10-09 07:34:45-log: [Editor] assets@1.0.0 enable
-2019-10-09 07:34:45-log: [Editor] inspector@1.0.0 enable
-2019-10-09 07:34:45-log: [Editor] hierarchy@1.0.0 enable
-2019-10-09 07:34:45-log: [Editor] packager@1.0.0 enable
-2019-10-09 07:34:45-log: [Editor] project-setting@1.0.0 enable
-2019-10-09 07:34:46-log: [Editor] preview@1.0.0 enable
-2019-10-09 07:34:46-log: [Editor] builder@1.0.0 enable
-2019-10-09 07:34:46-log: [Editor] animator@1.0.0 enable
-2019-10-09 07:34:46-log: [Editor] about@1.0.0 enable
-2019-10-09 07:34:46-log: [Editor] tester@1.0.0 enable
-2019-10-09 07:34:46-log: [Editor] ipc@1.0.0 enable
-2019-10-09 07:34:46-log: [Editor] profile@1.0.0 enable
-2019-10-09 07:34:48-error: [Scene] (node:2424) [DEP0106] DeprecationWarning: crypto.createDecipher is deprecated.
-2019-10-09 07:34:50-warn: [Asset DB] Sender does not exist
-2019-10-09 07:43:52-warn: [Window] [Vue tip]: <ui-drag-object v-for="name in KEYS">: component lists rendered with v-for should have explicit keys. See https://vuejs.org/guide/list.html#key for more info.
-
-found in
-
----> <AssetTextureCube>
-       <Asset3d>
-         <Root>
-2019-10-09 07:45:43-info: [Editor] asset meta saved
-2019-10-09 07:45:58-info: [Editor] asset(D:\cocos3D\projects\leftRightJump\assets\startScene.scene) saved
-2019-10-09 07:48:02-info: [Editor] asset meta saved
-2019-10-09 07:48:12-info: [Editor] asset meta saved
-2019-10-09 07:48:12-info: [Editor] asset meta saved
-2019-10-09 07:48:12-info: [Editor] asset meta saved
-2019-10-09 07:48:12-info: [Editor] asset meta saved
-2019-10-09 07:48:12-info: [Editor] asset meta saved
-2019-10-09 07:48:14-info: [Editor] asset(D:\cocos3D\projects\leftRightJump\assets\startScene.scene) saved
-2019-10-09 07:48:42-info: [Editor] asset(D:\cocos3D\projects\leftRightJump\assets\startScene.scene) saved
-2019-10-09 07:48:49-warn: [Editor] The panel(ui-kit.color-picker) does not exist and cannot send a message.
+2019-10-09 13:44:21-error: [Editor] (node:14744) [DEP0106] DeprecationWarning: crypto.createDecipher is deprecated.
+2019-10-09 13:44:23-log: [Editor] preferences@1.0.0 enable
+2019-10-09 13:44:25-log: [Editor] Parse [D:/cocos3D/CocosCreator3D/resources/resources/3d/engine/index.ts] : walk 477  files.
+2019-10-09 13:44:25-log: [Editor] Parse [D:/cocos3D/CocosCreator3D/resources/resources/3d/engine/index.ts]: 2335.447ms
+2019-10-09 13:44:25-log: [Editor] QuickCompiler compileFinished: 60.649ms
+2019-10-09 13:44:25-log: [Editor] QuickCompiler rebuild finished: 2504.732ms
+2019-10-09 13:44:25-log: [Editor] engine@1.0.0 enable
+2019-10-09 13:44:25-log: [Editor] asset-db@1.0.0 enable
+2019-10-09 13:44:25-log: [Editor] console@1.0.0 enable
+2019-10-09 13:44:25-log: [Editor] scene@1.0.0 enable
+2019-10-09 13:44:25-log: [Editor] ui-kit@1.0.0 enable
+2019-10-09 13:44:25-log: [Editor] assets@1.0.0 enable
+2019-10-09 13:44:25-log: [Editor] inspector@1.0.0 enable
+2019-10-09 13:44:25-log: [Editor] hierarchy@1.0.0 enable
+2019-10-09 13:44:25-log: [Editor] packager@1.0.0 enable
+2019-10-09 13:44:25-log: [Editor] project-setting@1.0.0 enable
+2019-10-09 13:44:26-log: [Editor] preview@1.0.0 enable
+2019-10-09 13:44:26-log: [Editor] builder@1.0.0 enable
+2019-10-09 13:44:26-log: [Editor] animator@1.0.0 enable
+2019-10-09 13:44:26-log: [Editor] about@1.0.0 enable
+2019-10-09 13:44:26-log: [Editor] tester@1.0.0 enable
+2019-10-09 13:44:26-log: [Editor] ipc@1.0.0 enable
+2019-10-09 13:44:26-log: [Editor] profile@1.0.0 enable
+2019-10-09 13:44:27-error: [Scene] (node:17964) [DEP0106] DeprecationWarning: crypto.createDecipher is deprecated.
+2019-10-09 13:49:47-warn: [Editor] The panel(ui-kit.color-picker) does not exist and cannot send a message.
   message: reset
   params: 
-2019-10-09 07:49:05-info: [Editor] asset(D:\cocos3D\projects\leftRightJump\assets\startScene.scene) saved
-2019-10-09 07:49:23-info: [Editor] asset(D:\cocos3D\projects\leftRightJump\assets\startScene.scene) saved
-2019-10-09 07:50:47-info: [Editor] asset(D:\cocos3D\projects\leftRightJump\assets\startScene.scene) saved
-2019-10-09 07:52:02-info: [Editor] asset(D:\cocos3D\projects\leftRightJump\assets\startScene.scene) saved
-2019-10-09 07:52:30-info: [Editor] asset(D:\cocos3D\projects\leftRightJump\assets\startScene.scene) saved
-2019-10-09 07:52:33-info: [Editor] asset(D:\cocos3D\projects\leftRightJump\assets\startScene.scene) saved
-2019-10-09 08:04:07-info: [Editor] asset(D:\cocos3D\projects\leftRightJump\assets\startScene.scene) saved
-2019-10-09 08:04:33-info: [Editor] asset(D:\cocos3D\projects\leftRightJump\assets\startScene.scene) saved
-2019-10-09 08:06:19-info: [Editor] asset(D:\cocos3D\projects\leftRightJump\assets\startScene.scene) saved
-2019-10-09 08:12:45-info: [Editor] asset(D:\cocos3D\projects\leftRightJump\assets\prefabs\planeNode.prefab) saved
-2019-10-09 08:13:13-info: [Editor] asset(D:\cocos3D\projects\leftRightJump\assets\startScene.scene) saved
-2019-10-09 08:13:44-info: [Editor] asset(D:\cocos3D\projects\leftRightJump\assets\startScene.scene) saved
-2019-10-09 08:13:59-info: [Editor] asset(D:\cocos3D\projects\leftRightJump\assets\prefabs\planeNode.prefab) saved
-2019-10-09 08:14:12-info: [Editor] asset(D:\cocos3D\projects\leftRightJump\assets\startScene.scene) saved
-2019-10-09 08:15:02-info: [Editor] asset(D:\cocos3D\projects\leftRightJump\assets\startScene.scene) saved
-2019-10-09 08:15:25-info: [Editor] asset(D:\cocos3D\projects\leftRightJump\assets\startScene.scene) saved
-2019-10-09 08:20:51-info: [Editor] asset(D:\cocos3D\projects\leftRightJump\assets\startScene.scene) saved
-2019-10-09 08:27:15-info: [Editor] asset(D:\cocos3D\projects\leftRightJump\assets\startScene.scene) saved
-2019-10-09 08:27:19-warn: [Build] Generated an empty bundle
-2019-10-09 08:34:05-warn: [Build] Generated an empty bundle
-2019-10-09 08:42:15-info: [Editor] asset(D:\cocos3D\projects\leftRightJump\assets\startScene.scene) saved
-2019-10-09 08:43:07-log: [Window] 1570581787355
-2019-10-09 08:43:09-log: [Window] 1570581789618
-2019-10-09 08:43:24-warn: [Build] Generated an empty bundle
-2019-10-09 08:47:02-info: [Editor] asset(D:\cocos3D\projects\leftRightJump\assets\startScene.scene) saved
-2019-10-09 08:47:24-log: [Window] 1570582044089
-2019-10-09 08:47:54-warn: [Build] Generated an empty bundle
-2019-10-09 08:51:07-info: [Editor] asset(D:\cocos3D\projects\leftRightJump\assets\startScene.scene) saved
-2019-10-09 08:51:19-log: [Window] 1570582279957
-2019-10-09 08:51:28-warn: [Build] Generated an empty bundle
-2019-10-09 08:55:24-info: [Editor] asset(D:\cocos3D\projects\leftRightJump\assets\startScene.scene) saved
-2019-10-09 08:56:04-info: [Editor] asset(D:\cocos3D\projects\leftRightJump\assets\startScene.scene) saved
-2019-10-09 08:58:48-info: [Editor] asset(D:\cocos3D\projects\leftRightJump\assets\startScene.scene) saved
-2019-10-09 08:58:56-log: [Window] 1570582736998
-2019-10-09 08:59:07-warn: [Build] Generated an empty bundle
-2019-10-09 08:59:26-warn: [Build] Generated an empty bundle
-2019-10-09 09:00:58-log: [Window] 1570582858477
-2019-10-09 09:01:25-warn: [Build] Generated an empty bundle
+2019-10-09 13:52:13-info: [Editor] asset(D:\cocos3D\projects\leftRightJump\assets\startScene.scene) saved
+2019-10-09 13:57:20-info: [Editor] asset(D:\cocos3D\projects\leftRightJump\assets\startScene.scene) saved
+2019-10-09 13:59:16-warn: [Build] Generated an empty bundle

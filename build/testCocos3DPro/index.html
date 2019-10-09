@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <title>Cocos Creator | leftRightJump</title>
+
+    <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1, minimum-scale=1,maximum-scale=1"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="full-screen" content="yes"/>
+    <meta name="screen-orientation" content="portrait"/>
+    <meta name="x5-fullscreen" content="true"/>
+    <meta name="360-fullscreen" content="true"/>
+    
+    <meta name="renderer" content="webkit"/>
+    <meta name="force-rendering" content="webkit"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+  </head>
+  <body>
+    <h1 class="header">leftRightJump</h1>
+
+    <div id="GameDiv" style="width:720px; height: 1280px;">
+    <canvas id="GameCanvas" width="720" height="1280"></canvas>
+    <div id="splash">
+      <div class="progress-bar stripes">
+        <span style="width: 0%"></span>
+      </div>
+    </div>
+    </div>
+    <p class="footer">
+      Created with <a href="http://cocos.com/cocoscreator" title="cocos creator">Cocos Creator</a>
+    </p>
+    <script src="src/cc-env.min.js" charset="utf-8"> </script>
+
+<script src="src/babelHelpers.js" charset="utf-8"></script>
+
+<script src="src/settings.js" charset="utf-8"></script>
+<script src="main.js" charset="utf-8"></script>
+<script type="text/javascript">
+  (function () {
+    var splash = document.getElementById('splash');
+    if (splash) {
+      splash.style.display = 'block';
+    }
+
+    const canv = document.getElementById('GameCanvas');
+    const $p = canv.parentElement;
+    const bcr = $p.getBoundingClientRect();
+    canv.width = bcr.width;
+    canv.height = bcr.height;
+
+    window.importEngine().then(function() {
+      window.boot();
+      window.addEventListener('resize', () => {
+        const bcr = $p.getBoundingClientRect();
+        window.cc && cc.director.root.resize(bcr.width, bcr.height);
+      });
+    });
+ })();
+</script>
+  </body>
+</html>
