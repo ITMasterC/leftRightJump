@@ -1,0 +1,212 @@
+{
+    "asset": {
+        "generator": "FBX2glTF v0.9.7",
+        "version": "2.0"
+    },
+    "scene": 0,
+    "buffers": [
+        {
+            "byteLength": 53012,
+            "uri": "buffer.bin"
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteLength": 10578,
+            "byteOffset": 0,
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteLength": 15912,
+            "byteOffset": 10580,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 15912,
+            "byteOffset": 26492,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 10608,
+            "byteOffset": 42404,
+            "target": 34962
+        }
+    ],
+    "scenes": [
+        {
+            "name": "Root Scene",
+            "nodes": [
+                0
+            ]
+        }
+    ],
+    "accessors": [
+        {
+            "componentType": 5123,
+            "type": "SCALAR",
+            "count": 5289,
+            "bufferView": 0,
+            "byteOffset": 0
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC3",
+            "count": 1326,
+            "bufferView": 1,
+            "byteOffset": 0,
+            "min": [
+                -1.21601998806,
+                -0.946180939674377,
+                -0.0519356243312359
+            ],
+            "max": [
+                0.806767344474792,
+                0.695907413959503,
+                2.1923828125
+            ]
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC3",
+            "count": 1326,
+            "bufferView": 2,
+            "byteOffset": 0
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC2",
+            "count": 1326,
+            "bufferView": 3,
+            "byteOffset": 0
+        }
+    ],
+    "images": [
+        {
+            "name": "Map #4618",
+            "uri": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mP8/5+hHgAHggJ/PchI7wAAAABJRU5ErkJggg=="
+        }
+    ],
+    "samplers": [
+        {}
+    ],
+    "textures": [
+        {
+            "name": "Map #4618",
+            "sampler": 0,
+            "source": 0
+        }
+    ],
+    "materials": [
+        {
+            "name": "Element3dsMaterial",
+            "alphaMode": "OPAQUE",
+            "extras": {
+                "fromFBX": {
+                    "shadingModel": "Phong",
+                    "isTruePBR": false
+                }
+            },
+            "pbrMetallicRoughness": {
+                "baseColorTexture": {
+                    "index": 0,
+                    "texCoord": 0
+                },
+                "baseColorFactor": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "metallicFactor": 0.400000005960464,
+                "roughnessFactor": 0.70710676908493
+            }
+        }
+    ],
+    "meshes": [
+        {
+            "name": "element3ds.com-obj1",
+            "primitives": [
+                {
+                    "material": 0,
+                    "mode": 4,
+                    "attributes": {
+                        "NORMAL": 2,
+                        "POSITION": 1,
+                        "TEXCOORD_0": 3
+                    },
+                    "indices": 0
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "name": "RootNode",
+            "translation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "children": [
+                1
+            ]
+        },
+        {
+            "name": "3dxy",
+            "translation": [
+                1.14440936727078e-07,
+                1.12215936183929,
+                2.27373670361034e-15
+            ],
+            "rotation": [
+                -0.70710676908493,
+                -1.06770158936342e-07,
+                -1.06770158936342e-07,
+                0.70710676908493
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "children": [
+                2
+            ]
+        },
+        {
+            "name": "element3ds.com-obj1",
+            "translation": [
+                0.204626351594925,
+                0.125136747956276,
+                -1.07022356987
+            ],
+            "rotation": [
+                0.0,
+                1.46936793852786e-39,
+                -2.64697796016969e-23,
+                1.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "mesh": 0
+        }
+    ]
+}

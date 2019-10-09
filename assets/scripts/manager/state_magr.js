@@ -19,7 +19,7 @@ export class statemagr extends Component {
     }
 
     init(){
-        this.deleteIndex = 0;
+        this.deleteIndex = -4.5;
         this._startGame = false;
         this._gameOver = false;
         this._score = 0;

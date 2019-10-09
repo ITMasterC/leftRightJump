@@ -61,8 +61,8 @@ export class rootNode extends Component {
         this.pool_data = new pooldata();
         this.init();
 
-        this.leftNode.on(SystemEvent.EventType.MOUSE_DOWN, this.onLeftTouch, this);
-        this.rightNode.on(SystemEvent.EventType.MOUSE_DOWN, this.onRightTouch, this);
+        this.leftNode.on(SystemEvent.EventType.TOUCH_START, this.onLeftTouch, this);
+        this.rightNode.on(SystemEvent.EventType.TOUCH_START, this.onRightTouch, this);
     }
 
     init(){
@@ -91,7 +91,7 @@ export class rootNode extends Component {
         window._state_magr._score ++;
         this.scoreLabel.string = window._state_magr._score;
         if(this._deleteBlockTime > 20){
-            this._deleteBlockTime = 60 - Math.floor(window._state_magr._score/2);
+            this._deleteBlockTime = 45 - Math.floor(window._state_magr._score/2);
         }
     }
 
@@ -115,6 +115,7 @@ export class rootNode extends Component {
     }
 
     onLeftTouch(event) {
+        console.log('=======================点击事件  left');
         if(!window._state_magr._startGame){
             window._state_magr._startGame = true;
         }else{
@@ -125,6 +126,7 @@ export class rootNode extends Component {
     }
 
     onRightTouch(event) {
+        console.log('=======================点击事件  right');
         if(!window._state_magr._startGame){
             window._state_magr._startGame = true;
         }else{
@@ -143,7 +145,10 @@ export class rootNode extends Component {
         if (this._camera) {
             var player_pos = this.player.getPosition();
             //var camera_pos = this._camera.getPosition();
-            this._camera.setPosition(cc.v3(player_pos.x, 3, player_pos.z + 8));
+            // var pos_y = (window._state_magr.deleteIndex - player_pos.z)/2 + 3;
+            // if(pos_y > 8)pos_y= 8;
+            // if(pos_y < 3)pos_y= 3;
+            this._camera.setPosition(cc.v3(player_pos.x, 3,player_pos.z+8));
         }
 
         if(window._state_magr._startGame && !window._state_magr._gameOver){

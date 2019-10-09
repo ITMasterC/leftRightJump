@@ -1,0 +1,134 @@
+{
+  "ver": "1.0.15",
+  "importer": "image",
+  "imported": true,
+  "uuid": "fd1d121f-a42a-43f6-bd10-4d865999701a",
+  "name": "",
+  "id": "",
+  "displayName": "",
+  "files": [
+    ".png",
+    ".json"
+  ],
+  "subMetas": {
+    "b47c0": {
+      "ver": "1.0.9",
+      "importer": "erp-texture-cube",
+      "name": "textureCube",
+      "id": "b47c0",
+      "displayName": "cuixingyun_NegativeZ",
+      "uuid": "fd1d121f-a42a-43f6-bd10-4d865999701a@b47c0",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {
+        "74afd": {
+          "ver": "1.0.4",
+          "importer": "erp-texture-cube-face",
+          "name": "right",
+          "id": "74afd",
+          "displayName": "",
+          "uuid": "fd1d121f-a42a-43f6-bd10-4d865999701a@b47c0@74afd",
+          "imported": true,
+          "files": [
+            ".png",
+            ".json"
+          ],
+          "subMetas": {},
+          "userData": {}
+        },
+        "8fd34": {
+          "ver": "1.0.4",
+          "importer": "erp-texture-cube-face",
+          "name": "left",
+          "id": "8fd34",
+          "displayName": "",
+          "uuid": "fd1d121f-a42a-43f6-bd10-4d865999701a@b47c0@8fd34",
+          "imported": true,
+          "files": [
+            ".png",
+            ".json"
+          ],
+          "subMetas": {},
+          "userData": {}
+        },
+        "bb97f": {
+          "ver": "1.0.4",
+          "importer": "erp-texture-cube-face",
+          "name": "top",
+          "id": "bb97f",
+          "displayName": "",
+          "uuid": "fd1d121f-a42a-43f6-bd10-4d865999701a@b47c0@bb97f",
+          "imported": true,
+          "files": [
+            ".png",
+            ".json"
+          ],
+          "subMetas": {},
+          "userData": {}
+        },
+        "7d38f": {
+          "ver": "1.0.4",
+          "importer": "erp-texture-cube-face",
+          "name": "bottom",
+          "id": "7d38f",
+          "displayName": "",
+          "uuid": "fd1d121f-a42a-43f6-bd10-4d865999701a@b47c0@7d38f",
+          "imported": true,
+          "files": [
+            ".png",
+            ".json"
+          ],
+          "subMetas": {},
+          "userData": {}
+        },
+        "e9a6d": {
+          "ver": "1.0.4",
+          "importer": "erp-texture-cube-face",
+          "name": "front",
+          "id": "e9a6d",
+          "displayName": "",
+          "uuid": "fd1d121f-a42a-43f6-bd10-4d865999701a@b47c0@e9a6d",
+          "imported": true,
+          "files": [
+            ".png",
+            ".json"
+          ],
+          "subMetas": {},
+          "userData": {}
+        },
+        "40c10": {
+          "ver": "1.0.4",
+          "importer": "erp-texture-cube-face",
+          "name": "back",
+          "id": "40c10",
+          "displayName": "",
+          "uuid": "fd1d121f-a42a-43f6-bd10-4d865999701a@b47c0@40c10",
+          "imported": true,
+          "files": [
+            ".png",
+            ".json"
+          ],
+          "subMetas": {},
+          "userData": {}
+        }
+      },
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "linear",
+        "premultiplyAlpha": false,
+        "anisotropy": 1,
+        "isRGBE": false,
+        "imageDatabaseUri": "db://assets/textures/cuixingyun_NegativeZ.png"
+      }
+    }
+  },
+  "userData": {
+    "type": "texture cube",
+    "redirect": "fd1d121f-a42a-43f6-bd10-4d865999701a@b47c0"
+  }
+}
