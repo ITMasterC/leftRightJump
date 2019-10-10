@@ -1,30 +1,37 @@
-2019-10-09 13:44:21-error: [Editor] (node:14744) [DEP0106] DeprecationWarning: crypto.createDecipher is deprecated.
-2019-10-09 13:44:23-log: [Editor] preferences@1.0.0 enable
-2019-10-09 13:44:25-log: [Editor] Parse [D:/cocos3D/CocosCreator3D/resources/resources/3d/engine/index.ts] : walk 477  files.
-2019-10-09 13:44:25-log: [Editor] Parse [D:/cocos3D/CocosCreator3D/resources/resources/3d/engine/index.ts]: 2335.447ms
-2019-10-09 13:44:25-log: [Editor] QuickCompiler compileFinished: 60.649ms
-2019-10-09 13:44:25-log: [Editor] QuickCompiler rebuild finished: 2504.732ms
-2019-10-09 13:44:25-log: [Editor] engine@1.0.0 enable
-2019-10-09 13:44:25-log: [Editor] asset-db@1.0.0 enable
-2019-10-09 13:44:25-log: [Editor] console@1.0.0 enable
-2019-10-09 13:44:25-log: [Editor] scene@1.0.0 enable
-2019-10-09 13:44:25-log: [Editor] ui-kit@1.0.0 enable
-2019-10-09 13:44:25-log: [Editor] assets@1.0.0 enable
-2019-10-09 13:44:25-log: [Editor] inspector@1.0.0 enable
-2019-10-09 13:44:25-log: [Editor] hierarchy@1.0.0 enable
-2019-10-09 13:44:25-log: [Editor] packager@1.0.0 enable
-2019-10-09 13:44:25-log: [Editor] project-setting@1.0.0 enable
-2019-10-09 13:44:26-log: [Editor] preview@1.0.0 enable
-2019-10-09 13:44:26-log: [Editor] builder@1.0.0 enable
-2019-10-09 13:44:26-log: [Editor] animator@1.0.0 enable
-2019-10-09 13:44:26-log: [Editor] about@1.0.0 enable
-2019-10-09 13:44:26-log: [Editor] tester@1.0.0 enable
-2019-10-09 13:44:26-log: [Editor] ipc@1.0.0 enable
-2019-10-09 13:44:26-log: [Editor] profile@1.0.0 enable
-2019-10-09 13:44:27-error: [Scene] (node:17964) [DEP0106] DeprecationWarning: crypto.createDecipher is deprecated.
-2019-10-09 13:49:47-warn: [Editor] The panel(ui-kit.color-picker) does not exist and cannot send a message.
-  message: reset
-  params: 
-2019-10-09 13:52:13-info: [Editor] asset(D:\cocos3D\projects\leftRightJump\assets\startScene.scene) saved
-2019-10-09 13:57:20-info: [Editor] asset(D:\cocos3D\projects\leftRightJump\assets\startScene.scene) saved
-2019-10-09 13:59:16-warn: [Build] Generated an empty bundle
+2019-10-10 08:16:03-error: [Editor] (node:16144) [DEP0106] DeprecationWarning: crypto.createDecipher is deprecated.
+2019-10-10 08:16:06-log: [Editor] preferences@1.0.0 enable
+2019-10-10 08:16:11-log: [Editor] Parse [D:/cocos3D/CocosCreator3D/resources/resources/3d/engine/index.ts] : walk 477  files.
+2019-10-10 08:16:11-log: [Editor] Parse [D:/cocos3D/CocosCreator3D/resources/resources/3d/engine/index.ts]: 4232.370ms
+2019-10-10 08:16:11-log: [Editor] QuickCompiler compileFinished: 58.778ms
+2019-10-10 08:16:11-log: [Editor] QuickCompiler rebuild finished: 4453.426ms
+2019-10-10 08:16:11-log: [Editor] engine@1.0.0 enable
+2019-10-10 08:16:12-log: [Editor] asset-db@1.0.0 enable
+2019-10-10 08:16:12-log: [Editor] console@1.0.0 enable
+2019-10-10 08:16:12-log: [Editor] scene@1.0.0 enable
+2019-10-10 08:16:12-log: [Editor] ui-kit@1.0.0 enable
+2019-10-10 08:16:12-log: [Editor] assets@1.0.0 enable
+2019-10-10 08:16:12-log: [Editor] inspector@1.0.0 enable
+2019-10-10 08:16:12-log: [Editor] hierarchy@1.0.0 enable
+2019-10-10 08:16:12-log: [Editor] packager@1.0.0 enable
+2019-10-10 08:16:12-log: [Editor] project-setting@1.0.0 enable
+2019-10-10 08:16:12-log: [Editor] preview@1.0.0 enable
+2019-10-10 08:16:12-log: [Editor] builder@1.0.0 enable
+2019-10-10 08:16:13-log: [Editor] animator@1.0.0 enable
+2019-10-10 08:16:13-log: [Editor] about@1.0.0 enable
+2019-10-10 08:16:13-log: [Editor] tester@1.0.0 enable
+2019-10-10 08:16:13-log: [Editor] ipc@1.0.0 enable
+2019-10-10 08:16:13-log: [Editor] profile@1.0.0 enable
+2019-10-10 08:16:14-error: [Scene] (node:6560) [DEP0106] DeprecationWarning: crypto.createDecipher is deprecated.
+2019-10-10 08:16:17-warn: [Asset DB] Sender does not exist
+2019-10-10 08:18:18-info: [Editor] asset(D:\cocos3D\projects\leftRightJump\assets\startScene.scene) saved
+2019-10-10 08:25:59-info: [Editor] asset(D:\cocos3D\projects\leftRightJump\assets\startScene.scene) saved
+2019-10-10 08:33:56-info: [Editor] asset(D:\cocos3D\projects\leftRightJump\assets\startScene.scene) saved
+2019-10-10 08:39:03-info: [Editor] asset(D:\cocos3D\projects\leftRightJump\assets\startScene.scene) saved
+2019-10-10 08:40:36-info: [Editor] asset(D:\cocos3D\projects\leftRightJump\assets\startScene.scene) saved
+2019-10-10 08:43:10-info: [Editor] asset(D:\cocos3D\projects\leftRightJump\assets\startScene.scene) saved
+2019-10-10 08:44:16-info: [Editor] asset(D:\cocos3D\projects\leftRightJump\assets\startScene.scene) saved
+2019-10-10 09:09:16-error: [Asset DB] SyntaxError: D:\cocos3D\projects\leftRightJump\assets\scripts\controllers\player_con.js: Unexpected token (153:29)
+2019-10-10 09:09:28-error: [Scene] Script (db://assets/scripts/controllers/player_con.js) load failed, please check it
+2019-10-10 09:09:28-error: [Scene] Error: Error loading file://undefined
+2019-10-10 09:09:28-error: [Scene] Script (db://assets/scripts/controllers/player_con.js) load failed, please check it
+2019-10-10 09:09:28-error: [Scene] Error: Error loading file://undefined

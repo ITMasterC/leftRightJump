@@ -74,6 +74,7 @@ export class rootNode extends Component {
                 break;
             }
         }
+        this._showOverView = false;
         this._updateTime = 0;
         this._deleteBlockTime = 60;
         this.lastBlock_x = 0;
@@ -103,7 +104,7 @@ export class rootNode extends Component {
         this._existBlockArr.push(block);
         var pos_x = Math.random()*1 > 0.5 ? 1 : -1;
         this.lastBlock_x = this.lastBlock_x + pos_x;
-        block.setPosition(this.lastBlock_x, 0, this.index);
+        block.setPosition(this.lastBlock_x, -0.5, this.index);
     }
 
     deleteBlock(){
@@ -138,7 +139,10 @@ export class rootNode extends Component {
 
     gameOver(){
         console.log('------------------收到游戏结束消息');
-        this._UI_Magr.addChildByName('overView');
+        if(!this._showOverView){
+            this._showOverView = true;
+            this._UI_Magr.addChildByName('overView');
+        }
     }
 
     update(deltaTime) {
