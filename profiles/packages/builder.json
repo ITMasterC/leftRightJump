@@ -1,7 +1,7 @@
 {
   "common": {
-    "taskName": "web-mobile",
-    "platform": "web-mobile",
+    "taskName": "web-desktop",
+    "platform": "web-desktop",
     "appid": "wx8ac7b6ff1d4e80af",
     "orientation": "portrait",
     "packAutoAtlas": true,
@@ -64,57 +64,6 @@
         "message": "build sucess in 8991 ms!"
       },
       {
-        "id": "web-desktop",
-        "state": "success",
-        "progress": 1,
-        "options": {
-          "appid": "wx8ac7b6ff1d4e80af",
-          "buildPath": "./build",
-          "compressTexture": true,
-          "debug": false,
-          "designHeight": 1280,
-          "designWidth": 720,
-          "forceCombileEngine": false,
-          "inlineSpriteFrames": false,
-          "md5Cache": false,
-          "mergeStartScene": false,
-          "name": "leftRightJump",
-          "orientation": "portrait",
-          "packAutoAtlas": true,
-          "platform": "web-desktop",
-          "remoteServerAddress": "",
-          "scenes": [
-            {
-              "url": "db://assets/startScene.scene",
-              "uuid": "594f78af-28f2-4674-a73c-cc7734fdff45"
-            }
-          ],
-          "sourceMaps": false,
-          "startScene": "594f78af-28f2-4674-a73c-cc7734fdff45",
-          "subContext": "",
-          "taskName": "web-desktop",
-          "includeModules": [
-            "base",
-            "gfx-webgl",
-            "gfx-webgl2",
-            "ui",
-            "particle",
-            "physics-cannon",
-            "physics-framework",
-            "audio",
-            "tween",
-            "terrain"
-          ],
-          "designResolution": {
-            "width": 960,
-            "height": 640,
-            "fitWidth": true,
-            "fitHeight": false
-          }
-        },
-        "message": "build sucess in 67681 ms!"
-      },
-      {
         "id": "web-mobile",
         "state": "success",
         "progress": 1,
@@ -163,6 +112,56 @@
           }
         },
         "message": "build sucess in 4634 ms!"
+      },
+      {
+        "id": "web-desktop",
+        "state": "success",
+        "progress": 1,
+        "options": {
+          "appid": "wx8ac7b6ff1d4e80af",
+          "buildPath": "./build",
+          "compressTexture": true,
+          "debug": false,
+          "designHeight": 1280,
+          "designWidth": 720,
+          "embedWebDebugger": false,
+          "forceCombileEngine": false,
+          "inlineSpriteFrames": false,
+          "md5Cache": false,
+          "mergeStartScene": false,
+          "name": "leftRightJump",
+          "orientation": "auto",
+          "packAutoAtlas": true,
+          "platform": "web-desktop",
+          "scenes": [
+            {
+              "url": "db://assets/startScene.scene",
+              "uuid": "594f78af-28f2-4674-a73c-cc7734fdff45"
+            }
+          ],
+          "sourceMaps": false,
+          "startScene": "594f78af-28f2-4674-a73c-cc7734fdff45",
+          "taskName": "web-desktop",
+          "includeModules": [
+            "base",
+            "gfx-webgl",
+            "gfx-webgl2",
+            "ui",
+            "particle",
+            "physics-cannon",
+            "physics-framework",
+            "audio",
+            "tween",
+            "terrain"
+          ],
+          "designResolution": {
+            "width": 960,
+            "height": 640,
+            "fitWidth": true,
+            "fitHeight": false
+          }
+        },
+        "message": "build sucess in 6104 ms!"
       }
     ]
   },

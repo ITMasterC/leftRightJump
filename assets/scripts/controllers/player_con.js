@@ -139,7 +139,7 @@ export class playercon extends Component {
         }
 
         //避免有时候不会自动掉落
-        if (this._moveFinsh && window._state_magr.deleteIndex <= this.node.getPosition().z+1 && this._initFinsh) {
+        if (this._moveFinsh && window._state_magr.deleteIndex <= this.node.getPosition().z && this._initFinsh) {
             var pos = this.node.getPosition();
             pos.y -= this._gravity;
             this._gravity += 0.002;
